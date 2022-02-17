@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/Cellar/node/16.8.0/bin/node /usr/local/Cellar/yarn/1.22.11/libexec/bin/yarn.js add -D webpack babel-loader @babel/code
+
+PATH: 
+  /Users/marcoshernandez/.rvm/gems/ruby-2.7.2/bin:/Users/marcoshernandez/.rvm/gems/ruby-2.7.2@global/bin:/Users/marcoshernandez/.rvm/rubies/ruby-2.7.2/bin:/Users/marcoshernandez/.gem/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/Users/marcoshernandez/Library/Android/sdk/emulator:/Users/marcoshernandez/Library/Android/sdk/tools:/Users/marcoshernandez/Library/Android/sdk/tools/bin:/Users/marcoshernandez/Library/Android/sdk/platform-tools:/Users/marcoshernandez/Library/Python/3.9/bin:/Users/marcoshernandez/.rvm/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel%2fcode: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:66992:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:140763:22)
+      at Request.emit (node:events:394:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:141735:10)
+      at Request.emit (node:events:394:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:141657:12)
+      at Object.onceWrapper (node:events:513:28)
+      at IncomingMessage.emit (node:events:406:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "pkce",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
